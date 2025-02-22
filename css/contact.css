@@ -21,7 +21,7 @@ form {
 .contact-form {
     padding: 10px;
     width: 600px;
-    background-color: #fff;
+    background-color: #174c6a;;
     border-radius: 7px;
 }
 
@@ -43,7 +43,7 @@ form {
 }
 
 .contact-box.error input {
-    border: 1px solid rgb(213, 13, 13);
+    border: 1px solid rgb(255, 110, 110);
     background-color: rgba(0, 137, 250, .1);
 }
 
@@ -51,7 +51,7 @@ form {
     visibility: hidden;
     margin: 5px 0 0 5px;
     font-size: 14px;
-    color: rgb(213, 13, 13);
+    color: rgb(255, 110, 110);
 }
 
 .contact-box.error .error-text {
@@ -80,20 +80,26 @@ form {
 }
 
 #clear { 
-    color: black; 
-    background-color: hsla(318, 100%, 70%, 0.903);
+    background-color: hsla(191, 100%, 25%, 0.903);
 }
 #clear:hover {
     color: #fff;
     background-color: hsla(0, 100%, 50%, 0.9);
 }
+#clear:active {
+    background-color: hsla(0, 100%, 50%, 0.9);
+    transition: background-color 0.1s;
+}
 #send { 
-    color: black; 
-    background-color: hsla(318, 100%, 70%, 0.903);
+    background-color: hsla(191, 100%, 25%, 0.903);
 }
 #send:hover {
     color: #fff;
     background-color: hsla(119, 100%, 40%, 0.9);
+}
+#send:active {
+    background-color: hsla(119, 100%, 40%, 0.9);
+    transition: background-color 0.1s;
 }
 
 .send,
@@ -154,6 +160,7 @@ form {
     justify-content: center;
     text-align: center;
     margin-top: -180px;
+    
 }
 .hide {
 	display: none;

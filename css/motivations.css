@@ -17,7 +17,7 @@ body
     background-size: cover;
 }
 #social a { 
-    color: #9809a5;
+    color: #174c6a;
 }
 #social a:hover {
     padding: 5px;
@@ -95,12 +95,13 @@ article .message {
 }
 #contact-section a {
     margin-right: 10px;
-    color: rgb(100, 70, 100);
+    color: rgb(213, 213, 213);
+    
     text-decoration: none;
 }
 #contact-section a:hover {
     padding: 5px;
-    color: rgb(50, 50, 50);
+    color: rgb(100, 70, 100);
     opacity: 1;
     border-radius: 2px;
     transition: all 0.5s;

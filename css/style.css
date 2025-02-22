@@ -126,7 +126,7 @@ article {
 }
 
 #social a {
-    color: rgb(169, 169, 169);
+    color: rgb(213, 213, 213);
 }
 
 #social a:hover {
@@ -147,7 +147,7 @@ article {
 }
 
 #social .fa-envelope:hover {
-    color: #007bff;
+    color: #15509e;
 }
 
 #social a:visited {
@@ -225,7 +225,7 @@ section ul {
 
 #contact-section {
     background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(100, 70, 100);
+    color: #174c6a;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -236,7 +236,7 @@ section ul {
 
 #contact-section a {
     margin-right: 10px;
-    color: rgb(100, 70, 100);
+    color: rgb(213, 213, 213);
     text-decoration: none;
     font-size: 1.3rem;
 }
@@ -251,7 +251,7 @@ section ul {
 
 #contact-section .fa-facebook-square:hover,
 #contact-section .fa-linkedin:hover {
-    color: #1877f2;
+    color: #15509e;
 }
 
 #contact-section .fa-phone:hover {
@@ -259,7 +259,7 @@ section ul {
 }
 
 #contact-section .fa-envelope:hover {
-    color: #007bff;
+    color: #15509e;
 }
 
 #contact-section a:visited {
@@ -272,7 +272,7 @@ section ul {
 }
 
 #stopkaMD a {
-    color: #007bff;
+    color: #174c6a;
     font-size: medium;
 }
 
@@ -361,6 +361,7 @@ section ul {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    z-index: 1000;
 }
 
 .scrollTopButton:hover {
@@ -377,6 +378,7 @@ section ul {
     justify-content: center;
     text-align: center;
     margin-top: 100px;
+    color: #174c6a;
 }
 
 .hide {
