@@ -10,7 +10,6 @@ body {
     align-items: center;
     min-width: 80vw; 
     min-height: 70vh; 
-    background-color: #880688;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,7 +20,7 @@ form {
 .contact-form {
     padding: 10px;
     width: 600px;
-    background-color: #174c6a;;
+    background-color: #174c6a;
     border-radius: 7px;
 }
 
