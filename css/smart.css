@@ -1,0 +1,47 @@
+#container *
+{
+    padding: 5px;
+}
+.navbar ul {
+    width: 100%;
+}
+article img { width: 100vw;}
+section { 
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+@media (max-width: 568px) {
+
+    .navbar ul {
+        width: 100%;
+    }
+    .navbar ul li a {
+        font-size: 1.1rem;
+    }
+    section { font-size: 1.2rem;}
+    #container {
+        grid-template-areas: 
+        "header"
+        "nav"
+        "article"
+        "footer";
+        grid-template-rows: 1fr 1fr 5fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    #container article
+    {
+        display: grid;
+        grid-area: article;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    #container article img
+    {
+        /* width: 380px; */
+        width: 65vw;
+    }
+    .message {
+        font-size: 1rem;
+    }
+} 

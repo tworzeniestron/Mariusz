@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80vw; 
+    min-height: 70vh; 
+    background-color: #880688;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.contact-form {
+    padding: 10px;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-box input {
+    padding: 0px;
+    font-size: 16px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.contact-box.error input {
+    border: 1px solid rgb(213, 13, 13);
+    background-color: rgba(0, 137, 250, .1);
+}
+
+.contact-box .error-text {
+    visibility: hidden;
+    margin: 5px 0 0 5px;
+    font-size: 14px;
+    color: rgb(213, 13, 13);
+}
+
+.contact-box.error .error-text {
+    visibility: visible;
+}
+
+.contact-form input,
+.contact-form textarea, 
+.contact-form button {
+    padding: 7px;
+    font-size: 16px;
+    font-family: inherit;
+    border: 2px solid hsl(323, 15%, 50%);
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 200px;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+#clear { 
+    color: black; 
+    background-color: hsla(318, 100%, 70%, 0.903);
+}
+#clear:hover {
+    color: #fff;
+    background-color: hsla(0, 100%, 50%, 0.9);
+}
+#send { 
+    color: black; 
+    background-color: hsla(318, 100%, 70%, 0.903);
+}
+#send:hover {
+    color: #fff;
+    background-color: hsla(119, 100%, 40%, 0.9);
+}
+
+.send,
+.clear,
+.close {
+    display: block;
+    padding: 10px 0;
+    margin: 10px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 135, 225);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.send:hover,
+.clear:hover,
+.close:hover {
+    background-color: hsl(312, 75%, 25%);
+    color: #fff;
+}
+
+.sendMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: -300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 660px;
+    height: 200px;
+    background-color: rgb(255, 135, 225);
+    transition: top .5s;
+}
+
+.sendMsg p {
+    font-size: 28px;
+    text-align: center;
+}
+
+.sendMsg button {
+    visibility: hidden;
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: black;
+}
+
+.show-sendMsg {
+    top: 150px;
+}
+#policy {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: -180px;
+}
+.hide {
+	display: none;
+}
+.cookie-box
+{
+    width: 100vw;
+    height: 160px;
+    background-color: rgb(102, 102, 102);
+    opacity: 0.7;
+    font-size: 0.9rem;
+    color: azure;
+    text-align: center;
+    padding: 0 30px 30px;
+    transition: 0.4s;
+}
+.cookie-box:hover {
+    opacity: 1;
+}
+.cookie-box a { 
+    text-decoration: none;
+    color: rgb(0, 229, 255);
+}
+.cookie-box a:hover { color: rgb(0, 115, 255);}
+.cookie-btn { 
+	padding: 12px 30px; 
+	border: none; 
+	outline: none; 
+	background: #9809a5;
+    color: #fff; 
+	font-size: 16px; 
+	font-weight: 500; 
+	border-radius: 5px; 
+	cursor: pointer; 
+    margin-top: 20px;
+    margin-right: auto;
+    width: 130px;
+	transition: all 0.3s ease; 
+} 

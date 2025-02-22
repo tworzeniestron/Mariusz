@@ -1,0 +1,25 @@
+html, 
+body { 
+    border: 0; margin: 0; padding: 0; 
+}
+
+.contact-form {
+    width: 300px;
+}
+
+.sendMsg {
+    width: 330px;
+}
+
+.contact-form label {
+    font-size: 16px;
+}
+
+.contact-box input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+}

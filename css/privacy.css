@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+body
+{
+    color: rgb(33, 3, 31);
+    font-size: 0.9rem;
+}
+#tab {
+    margin-left: 22px;
+}
+#tab a { text-decoration: none;}
+#cent { 
+    text-align: center;
+    font-size: 1.1rem;
+}
+.scrollTopButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.scrollTopButton:hover {
+    opacity: 1;
+}
+.scrollTopButton img {
+    width: 60px;
+    height: 60px;
+}

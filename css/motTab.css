@@ -1,0 +1,10 @@
+#container article
+{
+    display: grid;
+    grid-area: article;
+    grid-template-columns: 1fr 1fr;
+}
+#container article img 
+{
+    width: 450px;
+}
