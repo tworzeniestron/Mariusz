@@ -179,7 +179,7 @@ article {
 
 .navbar ul li a {
     margin-left: 3px;
-    color: #4ca1af;
+    color: rgb(213, 213, 213);
     opacity: 0.7;
     font-size: 1rem;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -377,7 +377,7 @@ section ul {
     position: absolute;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 90px;
     color: #174c6a;
 }
 
