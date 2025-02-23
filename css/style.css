@@ -186,6 +186,16 @@ article {
     text-decoration: none;
     font-weight: bold;
 }
+.navbar ul li a:hover {
+    color: #ffffff;
+    background-color: #2c3e50;
+}
+.dropdown-menu {
+    background-color: #2c3e50;
+}
+.dropdown-menu:hover {
+    color: #174c6a;
+}
 
 .navbar-toggler {
     background-color: #2c3e50;
@@ -386,15 +396,16 @@ section ul {
 }
 
 .cookie-box {
-    width: 100vw;
-    height: 160px;
-    background-color: rgb(102, 102, 102);
+    position: fixed;
+    bottom: 20px;
+    margin: 5px 10px;
+    width: 400px;
+    background-color: #cecece;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     opacity: 0.7;
-    font-size: 0.9rem;
-    color: azure;
-    text-align: center;
-    padding: 0 30px 30px;
-    transition: 0.4s;
+    z-index: 1000;
 }
 
 .cookie-box:hover {
@@ -403,7 +414,7 @@ section ul {
 
 .cookie-box a {
     text-decoration: none;
-    color: rgb(0, 229, 255);
+    color: hsla(191, 100%, 25%, 0.903);
 }
 .cookie-box a:hover {
     color: rgb(0, 115, 255);
@@ -413,7 +424,7 @@ section ul {
 	padding: 12px 30px;
 	border: none;
 	outline: none;
-	background: #9809a5;
+	background-color: hsla(191, 100%, 25%, 0.903);
     color: #fff;
 	font-size: 16px;
 	font-weight: 400;
@@ -422,6 +433,31 @@ section ul {
     margin-right: 10px;
     width: 130px;
 	transition: all 0.3s ease;
+}
+
+.accept-btn {
+    background-color: hsla(191, 100%, 25%, 0.903);
+    color: white;
+}
+.cancel-btn {
+    background-color: hsla(191, 100%, 25%, 0.903);
+    color: white;
+}
+.cancel-btn:active {
+    background-color: hsla(0, 100%, 50%, 0.9);
+    transition: background-color 0.1s;
+}
+.cancel-btn:hover {
+    color: #fff;
+    background-color: hsla(0, 100%, 50%, 0.9);
+}
+.accept-btn:active {
+    background-color: hsla(119, 100%, 40%, 0.9);
+    transition: background-color 0.1s;
+}
+.accept-btn:hover {
+    color: #fff;
+    background-color: hsla(119, 100%, 40%, 0.9);
 }
 
 .btn {
