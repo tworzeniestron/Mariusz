@@ -203,6 +203,14 @@ article {
     margin-right: 30px;
 }
 
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
 article img {
     margin: auto;
 }
