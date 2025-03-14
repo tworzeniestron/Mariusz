@@ -4,7 +4,7 @@
     $from = $_POST["email"];
     $phone = $_POST["phone"];
     $subject  = "Powiadomienie z formularza na stronie marki-it.pl";
-    $to = "mariusz.drabarek24@gmail.com";
+    $to = "mar.dra@wp.pl";
     $message = $_POST["message"];
 
     $txt = "Imię i nazwisko: " . $name . "\r\n" . "Telefon: " . $phone . "\r\n" . "Email: " . $from . "\r\n" . "\r\n" . "Treść: " . $message;
