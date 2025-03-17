@@ -7,13 +7,16 @@
 }
 article img { width: 450px;}
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
 
     .navbar ul {
         width: 100%;
     }
     .navbar ul li a {
         font-size: 0.9rem;
+    }
+    .navbar-nav .dropdown-menu {
+        margin-bottom: 20px;
     }
     #container {
         grid-template-areas: 
