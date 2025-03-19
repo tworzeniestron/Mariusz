@@ -292,10 +292,6 @@ article img {
     margin-top: 20px;
 }
 
-.cookie-box p {
-    margin-top: 20px;
-}
-
 .halt {
     position: relative;
     width: 90vw;
@@ -531,6 +527,10 @@ section ul {
 }
 .cookie-box a:hover {
     color: hsla(191, 100%, 25%, 0.903);
+}
+
+.cookie-box p {
+    margin-top: 20px;
 }
 
 .cookie-btn {

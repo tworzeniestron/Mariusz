@@ -78,6 +78,17 @@ form {
     margin-bottom: 20px;
 }
 
+#send { 
+    background-color: hsla(191, 100%, 25%, 0.903);
+}
+#send:hover {
+    color: #fff;
+    background-color: hsla(119, 100%, 40%, 0.9);
+}
+#send:active {
+    background-color: hsla(119, 100%, 40%, 0.9);
+    transition: background-color 0.1s;
+}
 #clear { 
     background-color: hsla(191, 100%, 25%, 0.903);
 }
@@ -89,6 +100,21 @@ form {
     background-color: hsla(0, 100%, 50%, 0.9);
     transition: background-color 0.1s;
 }
+/*
+#back { 
+    /* background-color: hsla(191, 100%, 25%, 0.903);
+    position: relative;
+    margin-left: 20px;
+}
+#back:hover {
+    color: #fff;
+    background-color: hsla(135, 100%, 25%, 0.93);
+}
+#back:active {
+    background-color: hsla(0, 100%, 50%, 0.9);
+    transition: background-color 0.1s;
+}
+*/
 #send { 
     background-color: hsla(191, 100%, 25%, 0.903);
 }
@@ -103,25 +129,27 @@ form {
 
 .send,
 .clear,
-.close {
+.close,
+.back {
     display: block;
     padding: 10px 0;
     margin: 10px;
     width: 100px;
     font-size: 18px;
     font-weight: bold;
-    background-color: rgb(255, 135, 225);
+    background-color: hsla(191, 100%, 25%, 0.903);
     color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color .3s;
 }
-
-.send:hover,
-.clear:hover,
-.close:hover {
-    background-color: hsl(312, 75%, 25%);
+.back:hover {
     color: #fff;
+    background-color: hsla(135, 100%, 15%, 0.93);
+}
+
+.back a:hover {
+    text-decoration: none;
 }
 
 .sendMsg {
@@ -135,7 +163,7 @@ form {
     transform: translate(-50%, -50%);
     width: 660px;
     height: 200px;
-    background-color: rgb(255, 135, 225);
+    background-color: hsla(191, 100%, 25%, 0.903);
     transition: top .5s;
 }
 
