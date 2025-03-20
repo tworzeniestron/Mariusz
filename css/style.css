@@ -53,7 +53,6 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    /* background-color: rgba(255, 255, 255, 0.1); */
     border-radius: 8px;
     backdrop-filter: blur(5px);
 }
@@ -151,6 +150,7 @@ footer {
 
 #social a {
     color: rgb(213, 213, 213);
+    font-size: 2rem;
 }
 
 #social a:hover {
@@ -242,6 +242,12 @@ footer {
 .nav-link.active {
     text-decoration: underline;
 }
+
+.phone {
+    font-style: italic;
+    color: aqua;
+}
+
 .subtitle {
     font-size: 1.5rem;
 }
@@ -321,6 +327,11 @@ section {
 section ul {
     justify-content: space-evenly;
     margin-left: 20px;
+}
+
+section p a {
+    font-style: italic;
+    color: aqua;
 }
 
 #contact-section {
@@ -458,10 +469,10 @@ section ul {
 
     .section-next {
         position: absolute;
-        height: 100vh; /* zajmuje całą wysokość viewportu */
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center; /* wyśrodkowuje zawartość pionowo */
+        justify-content: center;
         align-items: center; 
     }   
 }

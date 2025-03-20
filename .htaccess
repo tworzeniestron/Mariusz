@@ -1,0 +1,23 @@
+# RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-f RewriteRule ^([^\.]+)$ $1.html [NC,L] RewriteBase / ErrorDocument 404 /error404.html 
+
+Header set Access-Control-Allow-Origin "*"
+
+# Redirect from .html URL to without .html
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html\sHTTP/ [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Rewrite URL without .html to include .html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*?)/?$ $1.html [L]
+
+ErrorDocument 404 /error404.html
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType text/css "access plus 1 week"
+</IfModule>
