@@ -14,18 +14,32 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h2, h3 {
+    text-decoration: underline;
+}
+h2,h3 {
     color: #ffffff;
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
-
 h2 a {
+    text-decoration: none;
+    font-style: italic;
+    color: aqua;
+}
+h3 a {
+    text-decoration: none;
+    font-style: italic;
+    color: aqua;
+}
+h2 a:hover {
+    text-decoration: underline;
     font-style: italic;
     color: aqua;
 }
 
-h3 a {
+h3 a:hover {
+    text-decoration: underline;
     font-style: italic;
     color: aqua;
 }
@@ -314,7 +328,21 @@ article img {
     padding: 20px;
     border-radius: 10px;
 }
+/* 
 
+    section {
+        font-size: 1rem;
+    }
+
+    .section-next {
+        position: absolute;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }  
+ */
 section {
     margin: 10px;
     justify-content: center;
@@ -323,16 +351,50 @@ section {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     text-align: left;
 }
-
 section ul {
     justify-content: space-evenly;
     margin-left: 20px;
 }
-
+section h1 a {
+    font-style: italic;
+    color: aqua;
+    text-decoration: none;
+}
+section h1 a:hover {
+    font-style: italic;
+    color: aqua;
+    text-decoration: underline;
+}
+section h2 a {
+    font-style: italic;
+    color: aqua;
+    text-decoration: none;
+}
+section h2 a:hover {
+    font-style: italic;
+    color: aqua;
+}
+section h3 a {
+    font-style: italic;
+    color: aqua;
+    text-decoration: none;
+}
+section h3 a:hover {
+    font-style: italic;
+    color: aqua;
+}
 section p a {
     font-style: italic;
     color: aqua;
 }
+.section-next {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}  
 
 #contact-section {
     color: rgb(213, 213, 213);
@@ -384,8 +446,12 @@ section p a {
 }
 
 #stopkaMD a {
-    color: rgb(213, 213, 213);
+    color: aqua;
     font-size: medium;
+}
+#stopkaMD a:hover {
+    color: rgb(0, 115, 255);
+    text-decoration: underline;
 }
 
 #stopkaMD a:visited {
@@ -461,20 +527,7 @@ section p a {
         grid-area: article;
         grid-template-columns: 1fr;
         text-align: left;
-    }
-
-    section {
-        font-size: 1rem;
-    }
-
-    .section-next {
-        position: absolute;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; 
-    }   
+    } 
 }
 
 .scrollTopButton {
@@ -537,6 +590,7 @@ section p a {
     
 }
 .cookie-box a:hover {
+    text-decoration: underline;
     color: hsla(191, 100%, 25%, 0.903);
 }
 
