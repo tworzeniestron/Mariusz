@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mariusz Drabarek - Psychoterapeuta</title>
+    <title>Mariusz Drabarek - Psychoterapeuta Warszawa Ursus</title>
     <meta name="description" content="Strona internetowa Mariusza Drabarka, specjalisty w dziedzinie psychoterapii uzależnień, współuzależnień. Potrzebujesz pomocy to zapraszam do kontaktu (również on-line).">
-    <meta name="keywords" content="Psychoterapeuta, psychoterapia, psychoterapeuta ds. uzależnień; psychoterapeuta do spraw uzależnień; Mariusz Drabarek; Drabarek Mariusz; Mariusz; Drabarek">
+    <meta name="keywords" content="Mariusz Drabarek psychoterapeuta, psychoterapeuta Warszawa Ursus, terapia DDA DDD Warszawa, psychoterapia uzależnień, psychoterapia indywidualna Warszawa, terapia uzależnień Ursus, konsultacje psychoterapeutyczne, pomoc dla uzależnionych, wsparcie psychoterapeutyczne, terapia online, psychoterapia dla dorosłych dzieci alkoholików, psychoterapia dla współuzależnionych, psychoterapia relacji, zmiana nawyków i zachowań">
     <meta property="og:image" content="./images/logo_md.webp" />
     <meta name="twitter:image" content="./images/logo_md.webp" />
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://mariuszdrabarek.pl/">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="logo_md.ico" type="image/x-icon">
     <link rel="icon" href="./images/logo_md.png" type="image/png">
     <link rel="shortcut icon" href="./images/logo_md.webp">
     <meta property="og:title" content="Żyje mi się lepiej">
@@ -24,18 +24,44 @@
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></noscript>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" media="screen and (min-width: 250px) and (max-width: 699.9px) " href="./css/smart.css">
-    <link rel="stylesheet" media="screen and (min-width: 700px) and (max-width: 899px) " href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/style.css" media="print" onload="this.onload=null;this.media='all';">
+    <link rel="stylesheet" href="./css/image.css" media="print" onload="this.onload=null;this.media='all';">
+    <link rel="stylesheet" media="screen and (min-width: 250px) and (max-width: 699.9px) " href="./css/smart.css" media="print" onload="this.onload=null;this.media='all';">
+    <link rel="stylesheet" media="screen and (min-width: 700px) and (max-width: 899px) " href="./css/mobile.css" media="print" onload="this.onload=null;this.media='all';">
     <meta name="author" content="Piotr Markiewicz">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Mariusz Drabarek",
+            "@type": "MedicalClinic",  
+            "name": "Mariusz Drabarek - Psychoterapeuta Warszawa Ursus",
+            "description": "Psychoterapeuta DDA/DDD i specjalista terapii uzależnień w Warszawie (Ursus). Pomoc w problemach emocjonalnych, relacyjnych i uzależnieniach.",
             "url": "https://mariuszdrabarek.pl",
-            "logo": "https://mariuszdrabarek.pl/favicon.png"
+            "logo": "https://mariuszdrabarek.pl/favicon.png",
+            "image": "https://mariuszdrabarek.pl/images/Mariusz_Drabarek.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Ursus",
+                "addressLocality": "Warszawa",
+                "addressCountry": "PL"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+48 793 080 761",
+                "contactType": "customer service"
+            },
+            "sameAs": [
+                "https://www.facebook.com/mariusz.drabarek.5",
+                "https://www.instagram.com/drabarek.mariusz/"
+            ]
         }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QVEFY0R6H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7QVEFY0R6H');
     </script>
 </head>
 <body>
@@ -47,7 +73,7 @@
                 <a href="tel:+48793080761"><i class="fa fa-phone" aria-hidden="true"></i></a>
                 <a href="mailto:mar.dra@wp.pl"><i class="fas fa-envelope"></i></a>
             </div>
-        </header>        
+        </header>
         <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand"></a>
@@ -57,16 +83,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Strona główna</a></li>
+                        <li class="nav-item"><a href="https://mariuszdrabarek.pl/" class="nav-link active" aria-current="page">Strona główna</a></li>
+                        
                         <li class="nav-item dropdown">
                             <a href="#" role="button"
                                 data-toggle="dropdown" class="nav-link dropdown-toggle">Konsultacje</a>
                             <ul class="dropdown-menu">
-                                <li><a href="./konsultacje-psychoterapeutyczne.html" class="dropdown-item">Psychoterapeutyczne</a></li>
-                                <li><a href="./konsultacje-uzaleznien.html" class="dropdown-item">Uzależnień</a></li>
+                                <li><a href="psychoterapeuta-warszawa-ursus.html" class="dropdown-item">Psychoterapeutyczne</a></li>
+                                <li><a href="./psychoterapeuta-uzaleznien-warszawa-ursus.html" class="dropdown-item">Uzależnień</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a href="./kontakt.html" class="nav-link" target="_blank">Kontakt</a></li>
+                        <li class="nav-item"><a href="./kontakt.html" class="nav-link">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,28 +111,41 @@
             <img src="./images/arrow-top.webp" alt="arrow up">
         </a>
 
-        <article>
-            <span>
-                <h1 class="box1"><strong>Mariusz Drabarek</strong></h1><br/><h3 class="box2"> → Psychoterapeuta <a href="./konsultacje-psychoterapeutyczne.html"> DDA/DDD</a>
-            </h3>Potrzebujesz wsparcia psychoterapeutycznego w <a href="https://www.google.com/maps/place/Ursus,+Warszawa/@52.1961458,20.8644994,14z/data=!3m1!4b1!4m6!3m5!1s0x471934b541114c8f:0x31063fe7e3a52f4c!8m2!3d52.1951226!4d20.8837885!16zL20vMGM3MzJo?entry=ttu&g_ep=EgoyMDI1MDMxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Warszawie - Ursus</a>? Konsultacja psychoterapeutyczna pomoże Ci rozwiązać problemy emocjonalne, zawodowe i relacyjne, poprawiając jakość życia.
-            
-                <br/><h3> → Psychoterapeuta <a href="./konsultacje-uzaleznien.html">Uzależnień</a></h3>
-                Oferuję profesjonalną pomoc psychoterapeuty w zakresie uzależnień <a href="https://www.google.com/maps/place/Ursus,+Warszawa/@52.1961458,20.8644994,14z/data=!3m1!4b1!4m6!3m5!1s0x471934b541114c8f:0x31063fe7e3a52f4c!8m2!3d52.1951226!4d20.8837885!16zL20vMGM3MzJo?entry=ttu&g_ep=EgoyMDI1MDMxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Warszawa (Ursus)</a>. Pomagam osobom uzależnionym w zmianie sposobu myślenia, budowaniu szacunku do siebie i radzeniu sobie z emocjami w zdrowy sposób.
-            </span>
-            <span>
-                <img class="home-image" src="./images/Mariusz_Drabarek.webp" title="Mariusz Drabarek - psychoterapeuta" alt="Psychoterapeuta DDA/DDD, uzależnień" loading="lazy">
-            </span>
+        <article class="container">
             <section class="article-text">
-                <h2>O mnie</h2>
+                <h1 class="box1"><strong>Mariusz Drabarek – Psychoterapeuta</strong></h1>
+                <p>
+                    Szukasz doświadczonego <strong>psychoterapeuty w <a href="https://www.google.com/maps/place/Ursus,+Warszawa/@52.1961458,20.8644994,14z/data=!3m1!4b1!4m6!3m5!1s0x471934b541114c8f:0x31063fe7e3a52f4c!8m2!3d52.1951226!4d20.8837885!16zL20vMGM3MzJo?entry=ttu&g_ep=EgoyMDI1MDMxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Warszawie (Ursus)</a>?</strong> Oferuję profesjonalne wsparcie w zakresie <strong>terapii DDA/DDD</strong>, a także pomoc osobom borykającym się z uzależnieniami.
+                    <strong>Psychoterapia</strong> pozwala odzyskać kontrolę nad życiem, poprawić relacje i radzić sobie ze stresem.
+                </p>
+                <h2>Profesjonalna psychoterapia <a href="./psychoterapeuta-warszawa-ursus.html">DDA/DDD</a></h3>
+                <p>Wspieram osoby z syndromem <strong>DDA/DDD</strong> w zrozumieniu schematów wyniesionych z dzieciństwa. Pomagam w pracy nad emocjami i poprawie relacji międzyludzkich.</p>
+                <h2>Profesjonalna psychoterapia uzależnień Warszawa Ursus</h2>
+                <p>Oferuję profesjonalną pomoc psychoterapeutyczną w zakresie <strong>uzależnień</strong> oraz <strong>współuzależnienia</strong>. Wspieram osoby uzależnione od alkoholu, narkotyków, hazardu czy internetu, pomagając w budowaniu zdrowych nawyków i radzeniu sobie z emocjami.</p>
+                <p>
+                    <strong>Umów się na konsultację</strong> i zacznij proces zmiany. Zadzwoń: 
+                    <a class="phone" href="tel:+48793080761">793-080-761</a>
+                </p>
+            </section>
+            <section>
+                <img class="home-image" src="./images/Mariusz_Drabarek.webp" title="Mariusz Drabarek - psychoterapeuta" alt="Psychoterapeuta DDA/DDD, uzależnień" loading="lazy">
+            </section>
+            <section class="article-text">
+                <h3>O mnie</h3>
+                <p>
+                    Jestem specjalistą terapii uzależnień oraz psychoterapeutą DDA/DDD. Ukończyłem Pedagogikę Osób Społecznie Nieprzystosowanych, Pedagogikę Sądowo Penitencjarną oraz Studium Terapii Uzależnień. 
+                </p>
+                <p>
+                    <strong>Pracuję z osobami</strong>: uzależnionymi, współuzależnionymi, doświadczającymi trudności w relacjach, cierpiącymi z powodu niskiej samooceny czy stresu w pracy.
+                </p>
                 <p>Ukończyłem Pedagogikę Osób Społecznie Nieprzystosowanych oraz Pedagogikę Sądowo Penitencjarną.</p>
-                <p>Skontaktuj się ze mną pod numerem telefonu: <a class="phone" href="tel:+48793080761">793-080-761</a></p>
                 <p>Jestem absolwentem Studium Terapii Uzależnień i Współuzależnień. Obecnie studiuję na 4 roku Szkoły Psychoterapii DDA przy Stowarzyszeniu OD - DO w Warszawie.</p>
                 <p>Pracuję jako psychoterapeuta, specjalista terapii uzależnień i współuzależnień. (od 27 lat Neofita znający problemy uzależnień z poziomu emocjonalnego). Pracuje z osobami DDA, współuzależnionymi, uzależnionymi.</p>
                 <p>Dopuszczam możliwość prowadzenia spotkań online. Prowadzę grupy ogólnorozwojowe dla osób uzależnionych, współuzależnionych, DDA. Przeprowadzam treningi zastępowania agresji oraz treningi zachowań konstruktywnych.</p>
             </section>
         
             <section class="article-text">
-                <h2>Oferta</h2>
+                <h3>Oferta</h3>
                 <p>Zapraszam do kontaktu osoby które:</p>
                 <ul type="-">
                     <li>→ nie radzą sobie w życiu z powodu zażywania substancji psychoaktywnych</li>
@@ -129,7 +169,7 @@
     </div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <script src="./scripts/arrowUp.js"></script>
-    <script src="./scripts/privacy.js"></script>
+    <script src="./scripts/arrowUp.js" defer></script>
+    <script src="./scripts/privacy.js" defer></script>
 </body>
 </html>
