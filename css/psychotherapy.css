@@ -8,14 +8,13 @@
 }
 .message-image {
     display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
     max-width: 50vw;
 }
 
 @media screen and (max-width: 768px) {
     .message-image {
-        max-width: 250px;
+        margin: 0 auto;
+        max-width: 280px;
     }
 }

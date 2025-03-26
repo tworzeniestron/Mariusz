@@ -5,7 +5,7 @@
 .navbar ul {
     width: 100%;
 }
-article img { width: 450px;}
+article img { width: 400px;}
 
 @media (max-width: 900px) {
 
@@ -33,10 +33,6 @@ article img { width: 450px;}
         grid-area: article;
         grid-template-columns: 1fr;
         text-align: left;
-    }
-    #container article img
-    {
-        width: 40vw;
     }
     
     .message {

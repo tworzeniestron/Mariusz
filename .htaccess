@@ -1,6 +1,8 @@
 # RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-f RewriteRule ^([^\.]+)$ $1.html [NC,L] RewriteBase / ErrorDocument 404 /error404.html 
 
 Header set Access-Control-Allow-Origin "*"
+Redirect 301 /index https://mariuszdrabarek.pl/
+Redirect 301 /index.html https://mariuszdrabarek.pl/
 
 # Redirect from .html URL to without .html
 RewriteEngine On

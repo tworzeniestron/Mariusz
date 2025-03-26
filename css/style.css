@@ -276,12 +276,9 @@ article {
     margin: 20px;
 }
 
-article h3 {
-    margin-top: 20px;
-}
 .article-text {
-    margin: 20px;
-    font-size: 1.2rem;
+    margin: 10px 20px;
+    font-size: 1.3rem;
 }
 .article-text a {
     font-style: italic;

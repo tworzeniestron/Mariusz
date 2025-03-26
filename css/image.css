@@ -11,10 +11,9 @@
     max-width: 40vw;
     max-height: 85vh;
 }
-@media screen and (min-width: 499px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .home-image {
         margin-top: 0;
-        max-width: 55vw;
-        max-height: 45vh;
+        max-width: 70vw;
     }
 }

@@ -36,10 +36,6 @@ section {
         grid-template-columns: 1fr;
         text-align: left;
     }
-    #container article img
-    {
-        width: 65vw;
-    }
     .message {
         font-size: 1rem;
     }
