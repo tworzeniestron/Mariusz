@@ -285,13 +285,13 @@ article {
     color: aqua;
 }
 
-#content-section, .message {
+/* #content-section, .message {
     line-height: 1.5;
 }
 
 #content-section button {
     margin-top: 20px;
-}
+} */
 
 section {
     margin: 10px;
