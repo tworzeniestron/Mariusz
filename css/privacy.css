@@ -17,7 +17,7 @@ body
 }
 .scrollTopButton {
     position: fixed;
-    right: 20px;
+    left: 20px;
     bottom: 20px;
     opacity: 0.5;
     border-radius: 50%;
