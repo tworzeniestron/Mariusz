@@ -6,7 +6,13 @@
     width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
+    .home-image {
+        margin-top: 135px;
+    }
+}
+
+@media (max-width: 899px) {
 
     .navbar ul {
         width: 100%;
