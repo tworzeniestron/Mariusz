@@ -39,4 +39,10 @@ section {
     .message {
         font-size: 1rem;
     }
+    .cookie-box {
+        width: auto;
+    }
+    .cookie-btn {
+        width: 100px;
+    }
 } 
