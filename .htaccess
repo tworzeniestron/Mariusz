@@ -8,7 +8,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)/?$ $1.html [L]
 
 RewriteCond %{HTTP_HOST} ^mariuszdrabarek\.pl [NC]
-RewriteRule ^(.*)$ https://www.mariuszdrabarek.pl/$1 [L,R=301]
+RewriteRule ^(.*)$ https://mariuszdrabarek.pl/$1 [L,R=301]
 
 ErrorDocument 404 /error404.html
 
