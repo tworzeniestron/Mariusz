@@ -1,3 +1,6 @@
 User-agent: *
 Disallow:
+Allow:  /terapia-grupowa-warszawa-ursus
+        /psychoterapeuta-warszawa-ursus
+        /psychoterapeuta-uzaleznien-warszawa-ursus
 Sitemap: https://mariuszdrabarek.pl/sitemap.xml

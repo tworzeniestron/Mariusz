@@ -1,6 +1,6 @@
 
 .main-text {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .main-text a {
     font-style: italic;
@@ -9,10 +9,13 @@
 .message-image {
     display: block;
     margin: 20px auto;
-    max-width: 350px;
+    max-width: 450px;
 }
 
 @media screen and (max-width: 768px) {
+    .main-text {
+        font-size: 1.3rem;
+    }
     .message-image {
         margin: 0 auto;
         max-width: 260px;

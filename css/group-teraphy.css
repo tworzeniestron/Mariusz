@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.article-text {
+    font-size: 1.5rem;
+}
+.article-text a {
+    font-style: italic;
+    color: aqua;
+}
+.group-image {
+    margin-top: 60px;
+    width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+    .article-text {
+        font-size: 1.3rem;
+    }
+    .group-image {
+        margin-top: 10px;
+        width: 80vw;
+    }
+}
