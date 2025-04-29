@@ -31,20 +31,49 @@
     <meta name="author" content="Piotr Markiewicz">
     <script type="application/ld+json">
         {
-        "@context": "https://schema.org",
-        "@type": "TherapeuticProcedure",
-        "name": "Terapia grupowa",
-        address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Ursus, Warszawa",
-            "addressLocality": "Warszawa",
-            "addressStreet": "Sosnkowskiego 16",
-            "postalCode": "02-495",
-            "addressCountry": "PL"
+            "@context": "https://schema.org",
+            "@type": "Event",
+            "name": "Terapia grupowa - Mariusz Drabarek",
+            "startDate": "2025-04-30T17:00:00+02:00",
+            "eventSchedule": {
+            "@type": "Schedule",
+            "repeatFrequency": "P1W",
+            "startTime": "17:00",
+            "byDay": "https://schema.org/Wednesday"
+            },
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+            "@type": "Place",
+            "name": "Gabinet psychoterapii Mariusz Drabarek",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Warszawa",
+                "addressDistrict": "Ursus",
+                "addressRegion": "Mazowieckie",
+                "postalCode": "02-495",
+                "addressCountry": "PL"
+            }
         },
-        "description": "Psychoterapeutyczna terapia grupowa dla osób z problemami uzależnień, współuzależnienia, DDA/DDD oraz problemów emocjonalnych."
+        "image": [
+            "https://mariuszdrabarek.pl/images/Mariusz_Drabarek.webp"
+            ],
+            "description": "Bezpłatne spotkania grupy terapeutycznej w każdą środę o godz. 17:00 w Warszawie – Ursus. Prowadzi psychoterapeuta Mariusz Drabarek.",
+            "organizer": {
+                "@type": "Person",
+                "name": "Mariusz Drabarek",
+                "url": "https://mariuszdrabarek.pl"
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "PLN",
+                "availability": "https://schema.org/InStock",
+                "validFrom": "2025-04-25T00:00:00+02:00"
+            }
         }
-    </script>
+        </script>
+        
 </head>
 <body>
     <div id="container" class="page">
