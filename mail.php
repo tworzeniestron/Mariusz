@@ -1,22 +1,19 @@
 <?php
-
-    $name = $_POST["fullName"];
-    $from = $_POST["email"];
-    $phone = $_POST["phone"];
-    $subject  = "Powiadomienie z formularza na stronie marki-it.pl";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "mar.dra@wp.pl";
-    $message = $_POST["message"];
+    $subject = "Wiadomość z formularza kontaktowego";
+    $name = $_POST["fullName"] . "\n";
+    $from = $_POST["email"] . "\n";
+    $phone = $_POST["phone"];
+    $message .= "Wiadomość:\n" . $_POST["message"];
+    $txt = "Imię i nazwisko: " . $name . "\r\n" . "Telefon: " . $phone . "\r\n" . "Email: " . $from . "\r\n" . "\r\n"  . $message;
 
-    $txt = "Imię i nazwisko: " . $name . "\r\n" . "Telefon: " . $phone . "\r\n" . "Email: " . $from . "\r\n" . "\r\n" . "Treść: " . $message;
+    $headers = "From: " . $_POST["fullName"];
 
-    $headers = "From: " . $from . "\r\n";
-    $headers .= "Content-Type: text/plain; charset=UTF-8" . "\r\n";
-    $headers .= "Reply-To: " . $from . "\r\n";
-
-    $mail_status = mail($to, $subject, $txt, $headers);
-
-    if ($mail_status) {
+    if (mail($to, $subject, $txt, $headers)) {
         header("Location: /./kontakt.html?mail_status=sent");
     } else {
         header("Location: /./kontakt.html?mail_status=error");
     }
+}
+?>
