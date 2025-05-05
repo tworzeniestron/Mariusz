@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "mariusz.drabarek24@gmail.com"; 
+    $to = "mar.dra@wp.pl"; 
     $subject = "Wiadomość z formularza kontaktowego"; 
 
     $name = strip_tags(trim($_POST["fullName"]));
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Email: " . $email . "\r\n\r\n"; 
     $message .= "Wiadomość:\r\n" . $messageContent; 
 
-    $headers = "From: Formularz kontaktowy <mariuszdrabarek.pl/kontakt>\r\n";
+    $headers = "From: Formularz kontaktowy <mariuszdrabarek.pl/kontakt@h53.seohost.pl>\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
