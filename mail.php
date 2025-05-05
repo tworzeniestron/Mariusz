@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message .= "Email: " . $email . "\r\n\r\n"; 
     $message .= "Wiadomość:\r\n" . $messageContent; 
 
-    $headers = "From: Formularz kontaktowy <mariuszdrabarek.pl/kontakt@h53.seohost.pl>\r\n";
+    $headers = "From: kontakt@h53.seohost.pl\r\n";
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
