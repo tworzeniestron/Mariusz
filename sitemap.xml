@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-			
-<url>
-  <loc>https://mariuszdrabarek.pl/</loc>
-  <lastmod>2025-04-28T18:21:18+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://mariuszdrabarek.pl/psychoterapeuta-warszawa-ursus</loc>
-  <lastmod>2025-04-28T18:21:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mariuszdrabarek.pl/psychoterapeuta-uzaleznien-warszawa-ursus</loc>
-  <lastmod>2025-04-28T18:21:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mariuszdrabarek.pl/terapia-grupowa-warszawa-ursus</loc>
-  <lastmod>2025-04-28T18:48:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mariuszdrabarek.pl/kontakt</loc>
-  <lastmod>2025-04-23T20:28:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mariuszdrabarek.pl/polityka-prywatnosci</loc>
-  <lastmod>2025-04-23T20:28:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+  <urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+              http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        
+  <url>
+    <loc>https://mariuszdrabarek.pl/</loc>
+    <lastmod>2025-04-28T18:21:18+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://mariuszdrabarek.pl/psychoterapeuta-warszawa-ursus</loc>
+    <lastmod>2025-04-28T18:21:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mariuszdrabarek.pl/psychoterapeuta-uzaleznien-warszawa-ursus</loc>
+    <lastmod>2025-04-28T18:21:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mariuszdrabarek.pl/terapia-grupowa-warszawa-ursus</loc>
+    <lastmod>2025-04-28T18:48:18+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mariuszdrabarek.pl/kontakt</loc>
+    <lastmod>2025-04-23T20:28:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mariuszdrabarek.pl/polityka-prywatnosci</loc>
+    <lastmod>2025-04-23T20:28:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url><url>
+    <loc>https://mariuszdrabarek.pl/error404.html</loc>
+    <lastmod>2025-04-23T16:38:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>

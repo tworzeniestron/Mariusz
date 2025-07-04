@@ -75,10 +75,10 @@
     <div id="container" class="page">
         <header>
             <div id="social" class="left">
-                <a href="https://www.facebook.com/mariusz.drabarek.5" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/drabarek.mariusz/" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"></i></a>
-                <a href="tel:+48793080761" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:mar.dra@wp.pl" aria-label="Wyślij e-mail do Mariusza"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/mariusz.drabarek.5" (click)="trackClick('facebook')" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/drabarek.mariusz/" (click)="trackClick('instagram')" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+48793080761"  (click)="trackClick('phone')" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:mar.dra@wp.pl" (click)="trackClick('email')" aria-label="Wyślij e-mail do Mariusza"><i class="fas fa-envelope"></i></a>
             </div>
         </header>
         <nav class="navbar navbar-expand-sm">
@@ -131,7 +131,7 @@
                 <p>Oferuję profesjonalną pomoc psychoterapeutyczną w zakresie <strong>uzależnień</strong> oraz <strong>współuzależnienia</strong>. Wspieram osoby uzależnione od alkoholu, narkotyków, hazardu czy internetu, pomagając w budowaniu zdrowych nawyków i radzeniu sobie z emocjami.</p>
                 <p>
                     <strong>Umów się na konsultację</strong> i zacznij proces zmiany. Zadzwoń: 
-                    <a class="phone" href="tel:+48793080761">793-080-761</a>
+                    <a class="phone" href="tel:+48793080761"  (click)="trackClick('phone')">793-080-761</a>
                 </p>
             </section>
             <section>
@@ -167,16 +167,17 @@
         
         <footer id="contact-section">
             <h1 class="section-heading">Kontakt:</h1>
-                <a href="https://www.facebook.com/mariusz.drabarek.5" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"> Facebook</i></a>
-                <a href="https://www.instagram.com/drabarek.mariusz/" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"> Instagram</i></a>
-                <a href="tel:+48793080761" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"> Telefon</i></a>
-                <a href="mailto:mar.dra@wp.pl" aria-label="Wyślij e-mail do Mariusza"> <i class="fas fa-envelope"> Mail</i></a>
+                <a href="https://www.facebook.com/mariusz.drabarek.5" (click)="trackClick('facebook')" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"> Facebook</i></a>
+                <a href="https://www.instagram.com/drabarek.mariusz/" (click)="trackClick('instagram')" (click)="trackClick('instagram')" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"> Instagram</i></a>
+                <a href="tel:+48793080761"  (click)="trackClick('phone')" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"> Telefon</i></a>
+                <a href="mailto:mar.dra@wp.pl" (click)="trackClick('email')" aria-label="Wyślij e-mail do Mariusza"> <i class="fas fa-envelope"> Mail</i></a>
                 <span id="stopkaMD"><br><span class="stopkaMD-color">©2025 Mariusz Drabarek</span> |<a class="policy" href="./polityka-prywatnosci.html" target="_blank" aria-label="Polityka prywatności">Polityka prywatności</a></span>
         </footer>
     </div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="./scripts/arrowUp.js" defer></script>
+    <script src="./scripts/notification.js" defer></script>
     <script src="./scripts/privacy.js" defer></script>
 </body>
 </html>

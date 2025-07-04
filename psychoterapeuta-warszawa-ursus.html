@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psychoterapeuta Warszawa – Ursus | Konsultacje i terapia</title>
-    <meta name="description" content="Psychoterapeuta w Warszawie (Ursus) – profesjonalna pomoc w trudnościach emocjonalnych, relacjach i stresie. Umów się na konsultację!">
+    <meta name="description" content="Psychoterapeuta w Warszawie (Ursus) – profesjonalna pomoc w leczeniu uzależnień, zaburzeń i trudnościach emocjonalnych, relacjach i stresie. Umów się na konsultację!">
     <meta name="keywords" content="psychoterapeuta Warszawa Ursus, psychoterapia Warszawa Ursus, konsultacja psychoterapeutyczna, wsparcie psychologiczne, DDA, DDD, problemy w relacjach, stres w pracy, terapia indywidualna, psychoterapeuta, konsultacje psychoterapeutyczne Warszawa, Ursus, psychoterapeuta Warszawa – Ursus">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://mariuszdrabarek.pl/psychoterapeuta-warszawa-ursus/">
@@ -69,10 +69,10 @@
     <div id="container" class="page">
         <header>
             <div id="social" class="left">
-                <a href="https://www.facebook.com/mariusz.drabarek.5" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/drabarek.mariusz/" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"></i></a>
-                <a href="tel:+48793080761" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:mar.dra@wp.pl" aria-label="Wyślij e-mail do Mariusza"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/mariusz.drabarek.5" (click)="trackClick('facebook')" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/drabarek.mariusz/" (click)="trackClick('instagram')" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+48793080761"  (click)="trackClick('phone')" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:mar.dra@wp.pl" (click)="trackClick('email')" aria-label="Wyślij e-mail do Mariusza"><i class="fas fa-envelope"></i></a>
             </div>
         </header> 
         <div id="policy">
@@ -147,16 +147,24 @@
                         </ul>
                         <span class="main-text">Zapraszam na konsultacje psychoterapeutyczne w Warszawie – Ursus. Pomogę Ci znaleźć skuteczne rozwiązania, które poprawią Twoje samopoczucie i jakość życia.</span>
                     </section>
+
+                    <section class="message">
+                        <h2>Psychoterapeuta uzależnień Warszawa</h2>
+                        <p class="article-text">
+                            Niezależnie od tego, czy mieszkasz w centrum, na Woli, Bemowie czy Pradze – jako<strong>psychoterapeuta uzależnień w Warszawie</strong>, pomagam osobom z całego miasta.  
+                            Uzależnienie nie wybiera – dlatego oferuję konsultacje dla każdego, kto potrzebuje wsparcia. Możliwe są również spotkania online.
+                        </p>
+                    </section>
             </div>
             
             
         </article>
         <footer id="contact-section">
             <h1 class="section-heading">Kontakt:</h1>
-            <a href="https://www.facebook.com/mariusz.drabarek.5" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"> Facebook</i></a>
-            <a href="https://www.instagram.com/drabarek.mariusz/" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"> Instagram</i></a>
-            <a href="tel:+48793080761" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"> Telefon</i></a>
-            <a href="mailto:mar.dra@wp.pl" aria-label="Wyślij e-mail do Mariusza"> <i class="fas fa-envelope"> Mail</i></a>
+            <a href="https://www.facebook.com/mariusz.drabarek.5" (click)="trackClick('facebook')" target="_blank" aria-label="Odwiedź mnie na Facebooku"><i class="fab fa-facebook-square"> Facebook</i></a>
+            <a href="https://www.instagram.com/drabarek.mariusz/" (click)="trackClick('instagram')" target="_blank" aria-label="Odwiedź mnie na Instagramie"><i class="fab fa-instagram"> Instagram</i></a>
+            <a href="tel:+48793080761"  (click)="trackClick('phone')" aria-label="Zadzwoń do Mariusza"><i class="fa fa-phone" aria-hidden="true"> Telefon</i></a>
+            <a href="mailto:mar.dra@wp.pl" (click)="trackClick('email')" aria-label="Wyślij e-mail do Mariusza"> <i class="fas fa-envelope"> Mail</i></a>
             <span id="stopkaMD"><br><span class="stopkaMD-color">©2025 Mariusz Drabarek</span> |<a class="policy" href="./polityka-prywatnosci.html" target="_blank" aria-label="Polityka prywatności">Polityka prywatności</a></span>
         </footer>
     </div>
@@ -164,5 +172,6 @@
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="./scripts/arrowUp.js"></script>
     <script src="./scripts/privacy.js"></script>
+    <script src="./scripts/node.js"></script>
 </body>
 </html>

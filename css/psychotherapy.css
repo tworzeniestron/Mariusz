@@ -12,6 +12,12 @@
     max-width: 450px;
 }
 
+@media (min-width: 1400px) {
+    .message-image {
+        max-width: 350px;        /* zmniejszenie max-width dla dużych ekranów */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .main-text {
         font-size: 1.3rem;

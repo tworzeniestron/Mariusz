@@ -15,3 +15,16 @@ goToTop.addEventListener('click', () => {
         top: 0
     })
 })
+
+const axios = require('axios');
+
+async function pobierzDane() {
+    try {
+        const response = await axios.get('https://www.facebook.com/mariusz.drabarek.5');
+        console.log('Dane:', response.data);
+    } catch (error) {
+        console.error('Błąd:', error);
+    }
+}
+
+pobierzDane();
