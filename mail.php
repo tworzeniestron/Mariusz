@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "mar.dra@wp.pl"; 
+    $to = "mariusz.drabarek24@gmail.com"; 
     $subject = "Wiadomość z formularza kontaktowego"; 
 
     $name = strip_tags(trim($_POST["fullName"]));
