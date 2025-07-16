@@ -85,3 +85,19 @@ clearBtn.addEventListener('click', e => {
         clearError(el)
     })
 })
+
+document.getElementById('fb-link').addEventListener('click', () => {
+    logClick('Facebook');
+});
+
+document.getElementById('phone-link').addEventListener('click', () => {
+    logClick('Telefon');
+});
+
+document.getElementById('insta-link').addEventListener('click', () => {
+    logClick('Instagram');
+});
+
+document.getElementById('email-link').addEventListener('click', () => {
+    logClick('Email');
+});

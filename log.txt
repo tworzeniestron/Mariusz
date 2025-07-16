@@ -1,0 +1,7 @@
+2025-07-09T16:16:27.385Z - Kliknięto: Facebook
+2025-07-09T16:17:16.624Z - Kliknięto: Instagram
+2025-07-09T16:17:31.557Z - Kliknięto: Telefon
+2025-07-09T16:17:33.724Z - Kliknięto: Mail
+2025-07-11T18:37:10.538Z - Kliknięto: Facebook
+2025-07-14T18:54:46.259Z - Kliknięto: Facebook
+2025-07-14T18:54:52.236Z - Kliknięto: Instagram

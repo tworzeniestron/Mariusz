@@ -1,24 +1,23 @@
-document.getElementById('fb-link').addEventListener('click', () => {
-    logClick('Facebook');
+const express = require('express');
+const fs = require('fs');
+const app = express();
+const port = 3000;
+
+app.use(express.json());
+
+app.post('/log', (req, res) => {
+    const { source, timestamp } = req.body;
+    const logEntry = `${timestamp} - Kliknięto: ${source}\n`;
+
+    fs.appendFile('log.txt', logEntry, (err) => {
+    if (err) {
+        console.error('Błąd zapisu do pliku:', err);
+        return res.sendStatus(500);
+        }
+        res.sendStatus(200);
+    });
 });
 
-document.getElementById('phone-link').addEventListener('click', () => {
-    logClick('Telefon');
+app.listen(port, () => {
+    console.log(`Serwer działa na http://localhost:${port}`);
 });
-
-document.getElementById('insta-link').addEventListener('click', () => {
-    logClick('Instagram');
-});
-
-function logClick(source) {
-    fetch('http://localhost:3000/log', { 
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-        source: source,
-        timestamp: new Date().toISOString() 
-    })
-    }).catch(err => console.error('Błąd połączenia z backendem:', err));
-}
