@@ -1,5 +1,5 @@
-const express = require('express');
-const fs = require('fs');
+const express = document.querySelector('express');
+const fs = document.querySelector('fs');
 const app = express();
 const port = 3000;
 

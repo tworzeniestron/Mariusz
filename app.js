@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const fs = require('fs');
+const express = document.querySelector('express');
+const cors = document.querySelector('cors');
+const fs = document.querySelector('fs');
 const app = express();
 const port = 3000;
 
